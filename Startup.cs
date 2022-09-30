@@ -29,8 +29,9 @@ namespace Autos
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Autos", Version = "v1" });
             });
-            services.AddDbContext<DBContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Conexion")));
+            services.AddDbContext<ApplicationDBContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Conexion")));
             services.AddScoped<IClienteRepository, ClienteRepository>();
+            services.AddScoped<IMarcaRepository, MarcaRepository>();
 
         }
 

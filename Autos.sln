@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "..\Infras
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "..\Domain\Domain.csproj", "{47F3A35E-D9BF-4ACA-96AC-10DF2A368F9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUTest", "..\XUTest\XUTest.csproj", "{F7872045-5EDA-4336-8C59-3AFC8583CD29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{47F3A35E-D9BF-4ACA-96AC-10DF2A368F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47F3A35E-D9BF-4ACA-96AC-10DF2A368F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47F3A35E-D9BF-4ACA-96AC-10DF2A368F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7872045-5EDA-4336-8C59-3AFC8583CD29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7872045-5EDA-4336-8C59-3AFC8583CD29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7872045-5EDA-4336-8C59-3AFC8583CD29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7872045-5EDA-4336-8C59-3AFC8583CD29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
